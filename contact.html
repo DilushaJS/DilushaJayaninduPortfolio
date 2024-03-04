@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dilusha Jayanindu Portfolio</title>
+    <link href="images/logo.png" rel="icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+        <a href="index.html" class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="cv/MyResume.pdf">My CV</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+    </header>
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+      <form id="contactForm">
+        <div class="input-box">
+          <input type="text" id="fullName" placeholder="Full Name">
+          <input type="email" id="email" placeholder="Email Address">
+        </div>
+        <div class="input-box">
+          <input type="tel" id="mobileNumber" placeholder="Mobile Number">
+          <input type="text" id="emailSubject" placeholder="Email Subject">
+        </div>
+        <textarea id="message" name="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="button" value="Send Message" class="btn" onclick="validateForm()">
+      </form>
+    </section>
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2024 by DJShashipriya | All Rights Reserved.</p>
+      </div>
+      <div class="footer-iconTop">
+        <a href="index.html"><i class='bx bx-home' ></i></a>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
