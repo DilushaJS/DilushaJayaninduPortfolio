@@ -1,5 +1,3 @@
-This is the readme file for the Assignment.
-
 # Multimedia Portfolio Website Documentation
 
 ## Project Overview
