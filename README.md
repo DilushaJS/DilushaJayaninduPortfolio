@@ -2,7 +2,7 @@ This is the readme file for the Assignment.
 
 # Multimedia Portfolio Website Documentation
 
-## Project Overview (Edit the content as required)
+## Project Overview
 
 ## Project Components
 
